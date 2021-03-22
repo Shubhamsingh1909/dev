@@ -1,0 +1,18 @@
+hiiiii i am f2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Shubham singh</h1>
+    <h2>rishab goyal</h2>
+    <ul>
+
+<li><a href="http://www.google.com">google.com</a></li>
+<img src="https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?cs=srgb&dl=pexels-pixabay-235986.jpg&fm=jpg" alt="photo.png"
+    </ul>
+</body>
+</html>
