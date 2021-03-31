@@ -26,7 +26,7 @@
 .tools {
     display: flex;
     width: 80%;
-    background: white;
+    background-color: rgb(152, 169, 173)45);
     justify-content: space-evenly;
     height: 80%;
     align-items: center;

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WhiteBoard</title>
+    <title>PepBoard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,7 +18,6 @@
                         <div class="blue"></div>
                         <div class="yellow"></div>
                         <div class="black"></div>
-                    </div class="green"></div>
                     </div>
                 </div>
             </div>
@@ -75,10 +74,19 @@
         ctx.lineTo(20,50);
         ctx.stroke();
     </script> -->
+
+    
+    <!-- socket.io code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.5/socket.io.js" integrity="sha512-2rUSTSAeOO02jF6eBqENNqPs1EohenJ5j+1dgDPdXSLz9nOlrr8DJk4zW/lDy8rjhGCSonW3Gx812XJQIKZKJQ==" crossorigin="anonymous"></script>
+   <script>
+        const socket = io.connect("http://localhost:3000");
+        // console.log(socket);
+    </script>
     <script src="./script.js"></script>
     <script src="./tools.js"></script>
     <script src="./sticky.js"></script>
     <script src="./img.js"></script>
     <script src="./util.js"></script>
+    <script src="./socket.js"></script>
 </body>
 </html>
